@@ -1,1 +1,79 @@
-Welcome to Greeting Messaging App!
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Cards</title>
+</head>
+
+<style type="text/css">
+
+*{   
+ margin: 2px;
+ padding: 5px;
+}
+
+body{   
+ font-family: arial;
+}
+
+.main{
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 5%;
+   }
+
+
+.title{
+  text-align: left;
+  padding: 10px;
+ }
+
+
+.des{
+  padding: 3px;
+  text-align: left;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+</style>
+
+<style>
+p{
+    color: silver;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: blue;
+}
+
+.card:hover {
+    color: blue;
+}
+
+</style>
+
+<body>
+
+<h1> Basic Panel layout </h1>
+
+<div id = "createcard" class="main"></div>
+
+ <script src="card_behaviour.js"> </script>     
+
+<footer>
+    <h5>Author: Anam Fazal</h5>
+    <p><a href="mailto:abc@xyz.com">send an email</a></p>
+</footer>
+
+</body>
+</html>
+
+
